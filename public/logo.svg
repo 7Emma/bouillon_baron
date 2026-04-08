@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond -->
+  <rect width="200" height="200" fill="#1a3a52" rx="10"/>
+  
+  <!-- Pot de bouillon stylisé -->
+  <g transform="translate(50, 40)">
+    <!-- Anse du pot -->
+    <path d="M 95 20 Q 110 20 110 40" stroke="#d4af37" stroke-width="4" fill="none" stroke-linecap="round"/>
+    
+    <!-- Pot -->
+    <path d="M 20 40 L 15 80 Q 15 95 30 100 L 70 100 Q 85 95 85 80 L 80 40 Z" fill="none" stroke="#d4af37" stroke-width="3"/>
+    
+    <!-- Couvercle -->
+    <ellipse cx="50" cy="40" rx="35" ry="8" fill="#d4af37"/>
+    <ellipse cx="50" cy="38" rx="35" ry="6" fill="#e8d4a8"/>
+    
+    <!-- Bouillon à l'intérieur -->
+    <ellipse cx="50" cy="85" rx="32" ry="6" fill="#d4af37" opacity="0.6"/>
+  </g>
+  
+  <!-- Texte "BB" stylisé -->
+  <text x="100" y="160" font-size="32" font-weight="bold" fill="#d4af37" text-anchor="middle" font-family="serif">
+    BB
+  </text>
+</svg>

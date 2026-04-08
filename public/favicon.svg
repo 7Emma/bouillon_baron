@@ -1,0 +1,17 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond bleu -->
+  <rect width="64" height="64" fill="#1a3a52" rx="8"/>
+  
+  <!-- Pot simplifié -->
+  <g transform="translate(16, 12)">
+    <!-- Pot body -->
+    <path d="M 6 14 L 4 28 Q 4 32 9 34 L 23 34 Q 28 32 28 28 L 26 14 Z" fill="none" stroke="#d4af37" stroke-width="2"/>
+    
+    <!-- Couvercle -->
+    <ellipse cx="16" cy="14" rx="12" ry="3" fill="#d4af37"/>
+    <ellipse cx="16" cy="12" rx="12" ry="2.5" fill="#e8d4a8"/>
+    
+    <!-- Anse -->
+    <path d="M 26 16 Q 35 16 35 22" stroke="#d4af37" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
